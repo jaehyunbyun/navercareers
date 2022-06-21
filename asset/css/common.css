@@ -1,0 +1,72 @@
+body{
+    font-family: 'TTHoves', 'NanumSquare', '나눔스퀘어', '돋움', dotum, arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    appearance: none;
+
+    /* overflow-x:hidden;  사용하면 안됨!*/
+    height: 100%;
+    min-height: 100%;
+    -webkit-text-size-adjust: none;
+    padding-top: 64px;
+}
+
+.blind{
+    position: absolute;
+    overflow: hidden;
+    width: 1px;height: 1px;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+
+.common-inner{
+    /* position: relative; */
+    width: 100%;
+    max-width: 1408px;
+    /* min-width: 1230px; */
+    padding: 0 104px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.header .logo,
+.banner-wrap .btn-close,
+.sc-support .link-support::after,
+.sc-search .count::after,
+.footer .btn-site::after,
+.sc-search .icon-box::after,
+.container .btn-prev.swiper-button-disabled,
+.container .btn-prev,
+.container .btn-next.swiper-button-disabled,
+.container .btn-next,
+.msearch-box .btn-search::after,
+.msearch-box .filter-item > a::before,
+.msearch-box .filter-sub-item a::before{
+    background-image: url(../images/logo/sprite.png);
+    background-size: 328px 205px;
+}
+
+
+
+
+
+/* 모바일 반응형 */
+
+.header .btn-menu,
+.header.active .btn-close,
+.header .nav-item.subteams a::after,
+.sc-search .btn-Msearch::after,
+.msearch-box .btn-close{
+    background-image: url(../images/icon/sprite2.png);
+    background-size: 195px 181px;
+}
