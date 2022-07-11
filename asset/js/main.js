@@ -2,11 +2,11 @@ $(function(){
     // 헤더 메뉴
     // 처음에  ul 위에 sub메뉴를 안주고 했는데 그러면 poa값이 ul로들어가서 마우스 내렸을떄 바로 사라져서 부모객체로 sub-menu 씌우고 거기다 poa값 주고함
     $('.left-gnb .teams').hover(function(){
-        $(".header").addClass('active')
+        $(".header").addClass('pc-active')
         $('.sub-menu').show();
     },function(){
         $('.sub-menu').hide();
-        $(".header").removeClass('active');
+        $(".header").removeClass('pc-active');
     });
 
 
@@ -146,4 +146,14 @@ $(function(){
     $('.btn-site').click(function(){
         $('.footer').toggleClass('active');
     });
+
+
+
+
+
+
+    $(window).trigger('resize')
 });
+
+
+

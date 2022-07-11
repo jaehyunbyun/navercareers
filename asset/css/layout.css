@@ -60,7 +60,7 @@
     margin-left: auto;
 }
 
-.header.active .gnb-list::after{
+.header.pc-active .gnb-list::after{
     content: '';
     position: absolute;
     top: 64px;
