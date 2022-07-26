@@ -117,7 +117,7 @@
     color: #fff;
     text-shadow: 6px 6px 18px rgb(0 0 0 / 16%);
 
-    animation: fadein 2s  ease-out forwards;
+    /* animation: fadein 2s  ease-out forwards; */
     
 }
 
@@ -129,10 +129,10 @@
     animation: fade 2s  ease-out forwards;
 }
 
-.sc-visual .swiper-slide.swiper-slide-active .visual-title  {
+/* .sc-visual .swiper-slide.swiper-slide-active .visual-title  {
     animation: wave-in 0.3s ease-out forwards, fade 0.8s linear forwards;
     animation-delay: 0.8s;
-}
+} */
 /* @keyframes wave-in {
     0%{
         
