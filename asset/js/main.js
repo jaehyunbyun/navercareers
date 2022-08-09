@@ -160,6 +160,7 @@ $(function(){
         //     $('.mo-gnb').removeClass('active');
         //     $('header .tab-wrap button').removeClass('btn-close');
         // }
+        //xxxxxxxx
     });
 
     $(window).trigger('resize');
