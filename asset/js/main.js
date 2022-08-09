@@ -150,9 +150,20 @@ $(function(){
 
 
 
+    $(window).resize(function(){
+        const w = $(window).width();
+        if(w > 1229) {
+            $('.header').removeClass('active');
+            $('body').removeClass('hidden');
+        }
+        // if(w > 1023 && $('.mo-gnb').hasClass('active')){
+        //     $('.mo-gnb').removeClass('active');
+        //     $('header .tab-wrap button').removeClass('btn-close');
+        // }
+    });
 
+    $(window).trigger('resize');
 
-    $(window).trigger('resize')
 });
 
 
